@@ -1,0 +1,32 @@
+
+git init //创建库
+
+git clone [url]//拷贝库到本地
+
+git status //查看到库之间更改
+	   -s //简短输出状态
+
+get diff //查看未缓存改动
+	--cached //查看已缓存的改动
+	HEAD	 //查看已缓存的与未缓存的所有改动
+	--stat	 //显示摘要而非整个diff
+
+git config --global use.name 'jiangyu'
+git config --global use.email yujiang@bitorobotics.ltd
+
+本地 git add -----> 缓存  git commit -m '更改解决的问题' -------> 库
+
+git reset HEAD hellp.php //取消变更提交到缓存
+
+git rm <file> //移除文件
+
+git rm -f <file> //删除已缓冲文件
+
+git rm --ceched <file> //文件本地保留，删除跟踪清单
+
+git mv //移动或重命名文件目录软连接
+
+git tag -a <tag mane> -m <description> //打tag
+
+git log //
+
